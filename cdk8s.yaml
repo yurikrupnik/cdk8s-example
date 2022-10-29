@@ -1,0 +1,6 @@
+language: typescript
+app: node main.js
+imports:
+  - k8s
+  - github:argoproj/argo-cd
+  - github:external-secrets/external-secrets
